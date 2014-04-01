@@ -1,0 +1,8 @@
+ Cocoa Pods #
+###################
+# Pod files are intentionally not ignored
+# Reasoning: 
+# http://guides.cocoapods.org/using/using-cocoapods.html
+# http://stackoverflow.com/a/22323702/1102169
+
+# /Pods
