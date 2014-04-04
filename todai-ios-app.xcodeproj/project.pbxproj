@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6365D27618EAD25F009A395F /* TDIMeetupDetectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6365D27518EAD25F009A395F /* TDIMeetupDetectorTests.m */; };
+		6318C9AA18EEF81D00CF498D /* TDITestModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 6318C9A918EEF81D00CF498D /* TDITestModels.m */; };
+		6318C9AD18EEF8F000CF498D /* TDIUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6318C9AC18EEF8F000CF498D /* TDIUser.m */; };
+		6318C9AE18EEF90B00CF498D /* TDIUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6318C9AC18EEF8F000CF498D /* TDIUser.m */; };
+		6318C9B118EEFD0C00CF498D /* TDIMeetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 6318C9B018EEFD0C00CF498D /* TDIMeetup.m */; };
 		63A0E99F18EAC9F600E3E017 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A0E99E18EAC9F600E3E017 /* Foundation.framework */; };
 		63A0E9A118EAC9F600E3E017 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A0E9A018EAC9F600E3E017 /* CoreGraphics.framework */; };
 		63A0E9A318EAC9F600E3E017 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A0E9A218EAC9F600E3E017 /* UIKit.framework */; };
@@ -36,7 +39,11 @@
 /* Begin PBXFileReference section */
 		24C4510CF5BA4E1DB01B50BE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		3B65FD8EAA534D3E8A18157C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		6365D27518EAD25F009A395F /* TDIMeetupDetectorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDIMeetupDetectorTests.m; sourceTree = "<group>"; };
+		6318C9A918EEF81D00CF498D /* TDITestModels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDITestModels.m; sourceTree = "<group>"; };
+		6318C9AB18EEF8F000CF498D /* TDIUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDIUser.h; sourceTree = "<group>"; };
+		6318C9AC18EEF8F000CF498D /* TDIUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDIUser.m; sourceTree = "<group>"; };
+		6318C9AF18EEFD0C00CF498D /* TDIMeetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDIMeetup.h; sourceTree = "<group>"; };
+		6318C9B018EEFD0C00CF498D /* TDIMeetup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDIMeetup.m; sourceTree = "<group>"; };
 		63A0E99B18EAC9F600E3E017 /* todai-ios-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "todai-ios-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A0E99E18EAC9F600E3E017 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		63A0E9A018EAC9F600E3E017 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -80,6 +87,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6318C9A618EEF65C00CF498D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6318C9A718EEF65C00CF498D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6318C9AB18EEF8F000CF498D /* TDIUser.h */,
+				6318C9AC18EEF8F000CF498D /* TDIUser.m */,
+				6318C9AF18EEFD0C00CF498D /* TDIMeetup.h */,
+				6318C9B018EEFD0C00CF498D /* TDIMeetup.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6318C9A818EEF65C00CF498D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		63A0E99218EAC9F600E3E017 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +147,9 @@
 		63A0E9A418EAC9F600E3E017 /* todai-ios-app */ = {
 			isa = PBXGroup;
 			children = (
+				6318C9A618EEF65C00CF498D /* Controller */,
+				6318C9A718EEF65C00CF498D /* Model */,
+				6318C9A818EEF65C00CF498D /* View */,
 				63A0E9AD18EAC9F600E3E017 /* TDIAppDelegate.h */,
 				63A0E9AE18EAC9F600E3E017 /* TDIAppDelegate.m */,
 				63A0E9B018EAC9F600E3E017 /* Images.xcassets */,
@@ -137,9 +172,9 @@
 		63A0E9BD18EAC9F700E3E017 /* todai-ios-appTests */ = {
 			isa = PBXGroup;
 			children = (
+				6318C9A918EEF81D00CF498D /* TDITestModels.m */,
 				63A0E9C318EAC9F700E3E017 /* todai_ios_appTests.m */,
 				63A0E9BE18EAC9F700E3E017 /* Supporting Files */,
-				6365D27518EAD25F009A395F /* TDIMeetupDetectorTests.m */,
 			);
 			path = "todai-ios-appTests";
 			sourceTree = "<group>";
@@ -285,7 +320,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				63A0E9AF18EAC9F600E3E017 /* TDIAppDelegate.m in Sources */,
+				6318C9AD18EEF8F000CF498D /* TDIUser.m in Sources */,
 				63A0E9AB18EAC9F600E3E017 /* main.m in Sources */,
+				6318C9B118EEFD0C00CF498D /* TDIMeetup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +331,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				63A0E9C418EAC9F700E3E017 /* todai_ios_appTests.m in Sources */,
-				6365D27618EAD25F009A395F /* TDIMeetupDetectorTests.m in Sources */,
+				6318C9AE18EEF90B00CF498D /* TDIUser.m in Sources */,
+				6318C9AA18EEF81D00CF498D /* TDITestModels.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
