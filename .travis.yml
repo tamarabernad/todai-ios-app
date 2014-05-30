@@ -1,0 +1,3 @@
+language: objective-c
+xcode_workspace: todai-ios-app.xcworkspace # path to your xcodeproj folder
+xcode_scheme: todai-ios-appTests

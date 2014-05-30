@@ -11,6 +11,7 @@
 		6318C9AD18EEF8F000CF498D /* TDIUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6318C9AC18EEF8F000CF498D /* TDIUser.m */; };
 		6318C9AE18EEF90B00CF498D /* TDIUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6318C9AC18EEF8F000CF498D /* TDIUser.m */; };
 		6318C9B118EEFD0C00CF498D /* TDIMeetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 6318C9B018EEFD0C00CF498D /* TDIMeetup.m */; };
+		6318C9B318EEFFE000CF498D /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6318C9B218EEFFE000CF498D /* AddressBook.framework */; };
 		63A0E99F18EAC9F600E3E017 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A0E99E18EAC9F600E3E017 /* Foundation.framework */; };
 		63A0E9A118EAC9F600E3E017 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A0E9A018EAC9F600E3E017 /* CoreGraphics.framework */; };
 		63A0E9A318EAC9F600E3E017 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A0E9A218EAC9F600E3E017 /* UIKit.framework */; };
@@ -44,6 +45,7 @@
 		6318C9AC18EEF8F000CF498D /* TDIUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDIUser.m; sourceTree = "<group>"; };
 		6318C9AF18EEFD0C00CF498D /* TDIMeetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDIMeetup.h; sourceTree = "<group>"; };
 		6318C9B018EEFD0C00CF498D /* TDIMeetup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDIMeetup.m; sourceTree = "<group>"; };
+		6318C9B218EEFFE000CF498D /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		63A0E99B18EAC9F600E3E017 /* todai-ios-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "todai-ios-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A0E99E18EAC9F600E3E017 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		63A0E9A018EAC9F600E3E017 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -67,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6318C9B318EEFFE000CF498D /* AddressBook.framework in Frameworks */,
 				63A0E9A118EAC9F600E3E017 /* CoreGraphics.framework in Frameworks */,
 				63A0E9A318EAC9F600E3E017 /* UIKit.framework in Frameworks */,
 				63A0E99F18EAC9F600E3E017 /* Foundation.framework in Frameworks */,
@@ -135,6 +138,7 @@
 		63A0E99D18EAC9F600E3E017 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6318C9B218EEFFE000CF498D /* AddressBook.framework */,
 				63A0E99E18EAC9F600E3E017 /* Foundation.framework */,
 				63A0E9A018EAC9F600E3E017 /* CoreGraphics.framework */,
 				63A0E9A218EAC9F600E3E017 /* UIKit.framework */,
